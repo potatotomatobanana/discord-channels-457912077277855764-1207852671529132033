@@ -29,6 +29,7 @@
 		"@sveltejs/vite-plugin-svelte": "^3.0.2",
 		"publint": "^0.2.7",
 		"svelte": "^4.2.11",
+		"svelte-french-toast": "^1.2.0",
 		"test-76543": "^0.0.2",
 		"tslib": "^2.6.2",
 		"typescript": "^5.3.3",
