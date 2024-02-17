@@ -8,7 +8,7 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
 		alias: {
-			"discord-channels-457912077277855764-1207852671529132033": "src/lib/index.js"
+			"$test-76543": "src/lib/index.js"
 		}
 	}
 };
