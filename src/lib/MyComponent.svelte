@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import { navigating } from "$app/stores"
     import MyInnerComponent from './MyInnerComponent.svelte'
     import { onDestroy, onMount } from "svelte"
@@ -9,7 +9,7 @@
 
     export let delay = 250
 
-    let timeoutId
+    let timeoutId: number | undefined
     let delayedPreloading = false
 
     onMount(() => {
